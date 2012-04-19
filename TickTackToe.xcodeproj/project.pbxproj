@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		017799A3153CCD3500C7FFE2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 017799A2153CCD3500C7FFE2 /* UIKit.framework */; };
+		017799A5153CCD3500C7FFE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 017799A4153CCD3500C7FFE2 /* Foundation.framework */; };
+		017799A7153CCD3500C7FFE2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 017799A6153CCD3500C7FFE2 /* CoreGraphics.framework */; };
+		017799AD153CCD3500C7FFE2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 017799AB153CCD3500C7FFE2 /* InfoPlist.strings */; };
+		017799AF153CCD3500C7FFE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 017799AE153CCD3500C7FFE2 /* main.m */; };
+		017799B3153CCD3500C7FFE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 017799B2153CCD3500C7FFE2 /* AppDelegate.m */; };
+		017799B9153CCD3500C7FFE2 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 017799B8153CCD3500C7FFE2 /* DetailViewController.m */; };
+		017799BF153CCD3500C7FFE2 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 017799BD153CCD3500C7FFE2 /* DetailViewController.xib */; };
+		017799CB153CCDF900C7FFE2 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 017799CA153CCDF900C7FFE2 /* GameKit.framework */; };
+		017799CE153CCE3400C7FFE2 /* GCHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 017799CD153CCE3400C7FFE2 /* GCHelper.m */; };
+		01779A51153DE88200C7FFE2 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01779A4F153DE88100C7FFE2 /* MenuViewController.m */; };
+		01779A52153DE88200C7FFE2 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01779A50153DE88100C7FFE2 /* MenuViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0177999E153CCD3500C7FFE2 /* ticktacktoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ticktacktoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		017799A2153CCD3500C7FFE2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		017799A4153CCD3500C7FFE2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		017799A6153CCD3500C7FFE2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		017799AA153CCD3500C7FFE2 /* TickTackToe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TickTackToe-Info.plist"; sourceTree = "<group>"; };
+		017799AC153CCD3500C7FFE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		017799AE153CCD3500C7FFE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		017799B0153CCD3500C7FFE2 /* TickTackToe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TickTackToe-Prefix.pch"; sourceTree = "<group>"; };
+		017799B1153CCD3500C7FFE2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		017799B2153CCD3500C7FFE2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		017799B7153CCD3500C7FFE2 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		017799B8153CCD3500C7FFE2 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		017799BE153CCD3500C7FFE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+		017799CA153CCDF900C7FFE2 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		017799CC153CCE3400C7FFE2 /* GCHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCHelper.h; sourceTree = "<group>"; };
+		017799CD153CCE3400C7FFE2 /* GCHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCHelper.m; sourceTree = "<group>"; };
+		01779A4E153DE88100C7FFE2 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		01779A4F153DE88100C7FFE2 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		01779A50153DE88100C7FFE2 /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0177999B153CCD3500C7FFE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				017799CB153CCDF900C7FFE2 /* GameKit.framework in Frameworks */,
+				017799A3153CCD3500C7FFE2 /* UIKit.framework in Frameworks */,
+				017799A5153CCD3500C7FFE2 /* Foundation.framework in Frameworks */,
+				017799A7153CCD3500C7FFE2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01779993153CCD3400C7FFE2 = {
+			isa = PBXGroup;
+			children = (
+				017799A8153CCD3500C7FFE2 /* TickTackToe */,
+				017799A1153CCD3500C7FFE2 /* Frameworks */,
+				0177999F153CCD3500C7FFE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0177999F153CCD3500C7FFE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0177999E153CCD3500C7FFE2 /* ticktacktoe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		017799A1153CCD3500C7FFE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				017799CA153CCDF900C7FFE2 /* GameKit.framework */,
+				017799A2153CCD3500C7FFE2 /* UIKit.framework */,
+				017799A4153CCD3500C7FFE2 /* Foundation.framework */,
+				017799A6153CCD3500C7FFE2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		017799A8153CCD3500C7FFE2 /* TickTackToe */ = {
+			isa = PBXGroup;
+			children = (
+				017799B1153CCD3500C7FFE2 /* AppDelegate.h */,
+				017799B2153CCD3500C7FFE2 /* AppDelegate.m */,
+				01779A4E153DE88100C7FFE2 /* MenuViewController.h */,
+				01779A4F153DE88100C7FFE2 /* MenuViewController.m */,
+				01779A50153DE88100C7FFE2 /* MenuViewController.xib */,
+				017799B7153CCD3500C7FFE2 /* DetailViewController.h */,
+				017799B8153CCD3500C7FFE2 /* DetailViewController.m */,
+				017799BD153CCD3500C7FFE2 /* DetailViewController.xib */,
+				017799CC153CCE3400C7FFE2 /* GCHelper.h */,
+				017799CD153CCE3400C7FFE2 /* GCHelper.m */,
+				017799A9153CCD3500C7FFE2 /* Supporting Files */,
+			);
+			path = TickTackToe;
+			sourceTree = "<group>";
+		};
+		017799A9153CCD3500C7FFE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				017799AA153CCD3500C7FFE2 /* TickTackToe-Info.plist */,
+				017799AB153CCD3500C7FFE2 /* InfoPlist.strings */,
+				017799AE153CCD3500C7FFE2 /* main.m */,
+				017799B0153CCD3500C7FFE2 /* TickTackToe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0177999D153CCD3500C7FFE2 /* ticktacktoe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 017799C2153CCD3500C7FFE2 /* Build configuration list for PBXNativeTarget "ticktacktoe" */;
+			buildPhases = (
+				0177999A153CCD3500C7FFE2 /* Sources */,
+				0177999B153CCD3500C7FFE2 /* Frameworks */,
+				0177999C153CCD3500C7FFE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ticktacktoe;
+			productName = TickTackToe;
+			productReference = 0177999E153CCD3500C7FFE2 /* ticktacktoe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01779995153CCD3400C7FFE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Fresh App Factory";
+			};
+			buildConfigurationList = 01779998153CCD3400C7FFE2 /* Build configuration list for PBXProject "TickTackToe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 01779993153CCD3400C7FFE2;
+			productRefGroup = 0177999F153CCD3500C7FFE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0177999D153CCD3500C7FFE2 /* ticktacktoe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0177999C153CCD3500C7FFE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				017799AD153CCD3500C7FFE2 /* InfoPlist.strings in Resources */,
+				017799BF153CCD3500C7FFE2 /* DetailViewController.xib in Resources */,
+				01779A52153DE88200C7FFE2 /* MenuViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0177999A153CCD3500C7FFE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				017799AF153CCD3500C7FFE2 /* main.m in Sources */,
+				017799B3153CCD3500C7FFE2 /* AppDelegate.m in Sources */,
+				017799B9153CCD3500C7FFE2 /* DetailViewController.m in Sources */,
+				017799CE153CCE3400C7FFE2 /* GCHelper.m in Sources */,
+				01779A51153DE88200C7FFE2 /* MenuViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		017799AB153CCD3500C7FFE2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				017799AC153CCD3500C7FFE2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		017799BD153CCD3500C7FFE2 /* DetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				017799BE153CCD3500C7FFE2 /* en */,
+			);
+			name = DetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		017799C0153CCD3500C7FFE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		017799C1153CCD3500C7FFE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		017799C3153CCD3500C7FFE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TickTackToe/TickTackToe-Prefix.pch";
+				INFOPLIST_FILE = "TickTackToe/TickTackToe-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		017799C4153CCD3500C7FFE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TickTackToe/TickTackToe-Prefix.pch";
+				INFOPLIST_FILE = "TickTackToe/TickTackToe-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01779998153CCD3400C7FFE2 /* Build configuration list for PBXProject "TickTackToe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				017799C0153CCD3500C7FFE2 /* Debug */,
+				017799C1153CCD3500C7FFE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		017799C2153CCD3500C7FFE2 /* Build configuration list for PBXNativeTarget "ticktacktoe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				017799C3153CCD3500C7FFE2 /* Debug */,
+				017799C4153CCD3500C7FFE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01779995153CCD3400C7FFE2 /* Project object */;
+}
